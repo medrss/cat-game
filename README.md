@@ -1,6 +1,6 @@
 ## All kitties go to heaven
 
-**All kitties go to heaven** — это простая веб-игра, находящаяся в стадии разработки. На данный момент это аркадная 2D-игра про летающего котика, который парит в облаках и сражается с врагами.
+**All kitties go to heaven** — это простая веб-игра про летающего котика, который парит в облаках и сражается с врагами. На данный момент она находится в стадии разработки.
 
 ### Требования
 - Игра предназначена для экранов с разрешением **Full HD (1920×1080)**
@@ -15,7 +15,7 @@
 
 ## All kitties go to heaven
 
-**All kitties go to heaven** is a simple web-based game currently in development. At this stage, it's a light 2D arcade game about a flying kitty gliding through the clouds and battling enemies.
+**All kitties go to heaven** is a simple web-based game about a flying kitty gliding through the clouds and battling enemies. The game is currently in development.
 
 ### Requirements
 - Designed for **Full HD screens (1920×1080)**
