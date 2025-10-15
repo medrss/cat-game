@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>All kitties go to heaven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay" id="startPopup">
+        <div class="popup" onclick="nextMessage()">
+            <img src="./img/storyteller.gif" alt="Кот рассказчик">
+            <p id="storyText"></p>
+            <button id="startButton" onclick="startGame()">Start Game</button>
+            <audio id="cattalking" src="./sound/merge-audio-online (mp3cut.net).mp3" loop ></audio>
+        </div>
+    </div>
+    <div id="gameArea" class="game-content">
+        <img id="cat" src="./img/cat.gif" alt="Cat">
+        <audio id="popSound" src="./sound/balloonpooow.mp3"></audio>
+        <audio id="mur" src="./sound/kot-myirlyikaet.mp3"></audio>
+        <audio id="heartbeat" src="./sound/heartbeatcat.mp3"></audio>
+        <audio id="crash" src="./sound/crash.mp3"></audio>
+        <audio id="punch" src="./sound/punch.mp3"></audio>
+        <audio id="meowhit" src="./sound/meow-4.mp3"></audio>
+        <audio id="batdiee" src="./sound/die.mp3"></audio>
+        <div id="scoreboard">
+            <p>
+                <img src="./img/bone.png" class="boneimg">
+                <span class="counter">x<span id="bonesCount">0</span></span>
+                <img src="./img/health.png" class="statistics">
+                x<span id="heartsCount">3</span></span>
+            </p>
+        </div>      
+        <audio id="backgroundMusic" src="./sound/background.mp3" loop autoplay></audio>  
+    </div>
+
+    <div class="overlay" id="gameOverPopup" style="display: none;">
+        <div class="popup">
+            <img src="./img/gameover.png" alt="Game Over">
+            <button id="restartButton" onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
